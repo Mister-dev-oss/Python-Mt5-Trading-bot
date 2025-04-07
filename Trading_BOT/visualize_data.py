@@ -6,10 +6,9 @@ from data_collector import stream_data
 
 def connect_mt5():
     if not mt5.initialize():
-        print('Errore nella connessione a mt5')
+        print('Error connecting mt5')
         return False
     else:
-        print('Connessione eseguita')
         return True
 
 timef = [mt5.TIMEFRAME_D1, mt5.TIMEFRAME_H1, mt5.TIMEFRAME_M15]
