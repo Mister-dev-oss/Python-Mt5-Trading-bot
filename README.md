@@ -1,2 +1,2 @@
 # Python-Mt5-Trading-bot
-This trading bot uses the MetaTrader 5 API to download real-time market data, calculate indicators, and execute trades based on a 3-screen strategy for more accurate decisions. It generates long and short orders with automatic closing.
+This trading bot downloads real-time data using the MetaTrader 5 API, calculates technical indicators, and performs analysis on the data to evaluate whether it aligns with a specified strategy. Based on this analysis, the bot generates long and short orders and executes a basic auto-closing strategy. The bot utilizes the 3-screen strategy, downloading three separate dataframes, each with a different timeframe and associated indicators, to enable more accurate trade decisions and position placements
